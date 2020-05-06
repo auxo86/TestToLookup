@@ -1,0 +1,7 @@
+J:\tests\HelloToLookup\HelloToLookup\bin\Debug\HelloToLookup.exe.config
+J:\tests\HelloToLookup\HelloToLookup\bin\Debug\HelloToLookup.exe
+J:\tests\HelloToLookup\HelloToLookup\bin\Debug\HelloToLookup.pdb
+J:\tests\HelloToLookup\HelloToLookup\obj\Debug\HelloToLookup.csprojAssemblyReference.cache
+J:\tests\HelloToLookup\HelloToLookup\obj\Debug\HelloToLookup.csproj.CoreCompileInputs.cache
+J:\tests\HelloToLookup\HelloToLookup\obj\Debug\HelloToLookup.exe
+J:\tests\HelloToLookup\HelloToLookup\obj\Debug\HelloToLookup.pdb
