@@ -12,21 +12,22 @@ namespace HelloToLookup
         {
             // 這個 new 有加入物件型態
 	    // 所以會失去聚合效果
-	    var lookup = getDatas().ToLookup(a => new CheckResult
-            {
                 PatientId = a.PatientId,
                 CheckId = a.CheckId,
                 Maximun = a.Maximun,
                 Minimun = a.Minimun
             });
-            //var lookup = getDatas().ToLookup(a => new
+            
+	    // 下面這段有正確的執行結果
+	    //var lookup = getDatas().ToLookup(a => new
             //{
             //    a.PatientId,
             //    a.CheckId,
             //    a.Maximun,
             //    a.Minimun
             //});
-            var groupCount = 0;
+            
+	    var groupCount = 0;
             var itemCount = 0;
             foreach (var group in lookup)
             {
