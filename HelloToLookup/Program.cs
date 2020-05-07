@@ -17,7 +17,9 @@ namespace HelloToLookup
                 Maximun = a.Maximun,
                 Minimun = a.Minimun
             });
-            //var lookup = getDatas().ToLookup(a => new
+            
+	    // 下面這段有正確的執行結果
+	    //var lookup = getDatas().ToLookup(a => new
             //{
             //    a.PatientId,
             //    a.CheckId,
