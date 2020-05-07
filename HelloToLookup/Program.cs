@@ -10,7 +10,7 @@ namespace HelloToLookup
     {
         static void Main(string[] args)
         {
-            // 這個 new 有加入 物件型態
+            // 這個 new 有加入型態，所已失去 group by 的效果。
 	    var lookup = getDatas().ToLookup(a => new CheckResult
             {
                 PatientId = a.PatientId,
