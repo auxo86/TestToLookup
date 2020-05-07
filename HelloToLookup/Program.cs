@@ -10,7 +10,8 @@ namespace HelloToLookup
     {
         static void Main(string[] args)
         {
-            // 這個 new 有加入 物件型態
+            // 這個 new 有加入物件型態
+	    // 所以會失去聚合效果
 	    var lookup = getDatas().ToLookup(a => new CheckResult
             {
                 PatientId = a.PatientId,
