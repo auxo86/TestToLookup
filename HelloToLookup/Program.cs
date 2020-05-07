@@ -10,7 +10,8 @@ namespace HelloToLookup
     {
         static void Main(string[] args)
         {
-            var lookup = getDatas().ToLookup(a => new CheckResult
+            // 這個 new 有加入 物件型態
+	    var lookup = getDatas().ToLookup(a => new CheckResult
             {
                 PatientId = a.PatientId,
                 CheckId = a.CheckId,
